@@ -1,0 +1,41 @@
+# ==========================================================
+# ==      .gitignore untuk Proyek Arduino / ESP32         ==
+# ==========================================================
+
+# File Rahasia
+# Abaikan file yang berisi password dan kredensial.
+secrets.h
+
+# Build files
+# Abaikan semua file hasil kompilasi.
+build/
+*.o
+*.a
+*.d
+*.bin
+*.elf
+*.hex
+*.uf2
+
+# File spesifik Arduino IDE
+*.pde
+*.ino.cpp
+
+# File spesifik IDE lain (VSCode, PlatformIO)
+.vscode/
+.vs/
+.pio/
+.pioenvs/
+.history/
+
+# File sistem operasi
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
